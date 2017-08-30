@@ -1,0 +1,15 @@
+{% extends "learning_logs/base.html" %}
+
+{% block header %}
+    <div class="jumbotron">
+        <h1>学习笔记</h1>
+    </div>
+{% endblock %}
+{% block content %}
+    <h2>
+        <a href="{% url 'users:register' %}">注册账户</a> 后可增加分类和笔记。
+    </h2>
+    <h2>
+        谢谢使用!
+    </h2>
+{% endblock %}
